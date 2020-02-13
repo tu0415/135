@@ -32,12 +32,12 @@ export default new Router({
             component:resolve => require(['@/pages/register'], resolve)
         },
         {
-            path: '/',
+            path: '/index',
             name: 'index',
             component:resolve => require(['@/pages/index'], resolve)
         },
         {
-            path: '/homePage',
+            path: '/',
             name: 'homePage',
             component:resolve => require(['@/pages/homePage'], resolve)
         },
